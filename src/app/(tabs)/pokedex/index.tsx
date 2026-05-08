@@ -8,7 +8,7 @@ export default function PokedexScreen() {
     <View style={styles.container}>
       <Text style={styles.title}>Pokedex</Text>
       <Text style={styles.description}>
-        Tap a Pokémon to see its details, or use the search to find your favorites.
+        Tap a Pokémon card to view its details.
       </Text>
       <Pressable
         style={styles.card}

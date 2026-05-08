@@ -8,6 +8,14 @@ export default function TabLayout() {
         headerShown: false,
         tabBarActiveTintColor: "#f8fafc",
         tabBarInactiveTintColor: "#cbd5e1",
+        tabBarLabelStyle: {
+          fontSize: 12,
+          fontWeight: "600",
+          marginBottom: 4,
+        },
+        tabBarIconStyle: {
+          marginBottom: 4,
+        },
         tabBarStyle: {
           position: "absolute",
           left: 16,
